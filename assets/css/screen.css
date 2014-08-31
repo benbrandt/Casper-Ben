@@ -1176,6 +1176,125 @@ body:not(.post-template) .post-title {
     font-size: 1.1rem;
 }
 
+/* Film Discussion Schedule */
+.film-schedule img {
+  float: left;
+  padding: 0;
+  max-width: 185px;
+  height: 278px;
+  transition: opacity 0.3s ease;
+}
+
+.film-schedule a:hover img {
+  opacity: .5;
+}
+
+.film-schedule ul {
+  clear: both;
+}
+
+.film-schedule .this-month {
+  background-color: #333;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+
+.film-schedule .this-month .info {
+  padding: 1em;
+}
+
+.film-schedule .this-month img {
+  width: 100%;
+  height: auto;
+  float: none;
+  margin: 0;
+}
+
+.film-schedule .this-month h3, .film-schedule .this-month h6, .film-schedule .this-month ul, .film-schedule .this-month p {
+  color: #fff;
+}
+
+.film-schedule .this-month a {
+  text-decoration: none;
+}
+
+.film-schedule .this-month button {
+  font-size: 1em;
+  padding: .5em .7em;
+  color: #fff;
+  background: #477DCA;
+  border: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.film-schedule .this-month button:hover {
+  background: rgba(71,125,202,.9);
+}
+
+.film-schedule .this-month button.netflix {
+  font-size: .7em;
+  padding: .3em .5em;
+  color: #fff;
+  background: #B9090B;
+}
+
+.film-schedule .this-month button.netflix:hover {
+  background: rgba(185,9,11,.9);
+}
+
+.film-schedule .this-month button.amazon {
+  font-size: .7em;
+  padding: .3em .5em;
+  color: #2E2E2E;
+  background: #ED9220;
+}
+
+.film-schedule .this-month button.amazon:hover {
+  background: rgba(237,146,32,.9);
+}
+
+.film-schedule .this-month button.hulu {
+  font-size: .7em;
+  padding: .3em .5em;
+  color: #fff;
+  background: #8BBF3D;
+}
+
+.film-schedule .this-month button.hulu:hover {
+  background: rgba(139,191,61,.9);
+}
+
+.film-schedule .this-month button.itunes {
+  font-size: .7em;
+  padding: .3em .5em;
+  color: #fff;
+  background: #6AAAEB;
+}
+
+.film-schedule .this-month button.itunes:hover {
+  background: rgba(106,170,235,.9);
+}
+
+.film-schedule ul {
+  margin: 0;
+  padding: 0;
+}
+
+.film-schedule ul li {
+  list-style: none;
+  padding: .25em .5em;
+}
+
+.film-schedule ul li:nth-child(2n+1){
+  background: #efefef;
+  border-bottom: 3px solid #dedede;
+}
 
 /* ==========================================================================
    8. Pagination - Tools to let you flick between pages
