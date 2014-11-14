@@ -1230,6 +1230,17 @@ body:not(.post-template) .post-title {
   clear: both;
 }
 
+.film-schedule .this-month {
+  background-color: #efefef;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+
+.film-schedule .this-month .info {
+  padding: 1em;
+}
+
 .film-schedule .this-month a {
   text-decoration: none;
 }
