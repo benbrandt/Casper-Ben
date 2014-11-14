@@ -1230,28 +1230,6 @@ body:not(.post-template) .post-title {
   clear: both;
 }
 
-.film-schedule .this-month {
-  background-color: #333;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
-}
-
-.film-schedule .this-month .info {
-  padding: 1em;
-}
-
-.film-schedule .this-month img {
-  width: 100%;
-  height: auto;
-  float: none;
-  margin: 0;
-}
-
-.film-schedule .this-month h3, .film-schedule .this-month h6, .film-schedule .this-month ul, .film-schedule .this-month p {
-  color: #fff;
-}
-
 .film-schedule .this-month a {
   text-decoration: none;
 }
