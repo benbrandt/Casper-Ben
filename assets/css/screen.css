@@ -1309,8 +1309,9 @@ body:not(.post-template) .post-title {
 }
 
 .film-discussion-title {
-    color: #fff;
+    color: rgba(255,255,255,.8);
     margin: auto;
+    margin-top: 6em;
 }
 
 /* Pastebin */
