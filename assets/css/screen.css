@@ -1308,6 +1308,11 @@ body:not(.post-template) .post-title {
   border-bottom: 3px solid #dedede;
 }
 
+/* Pastebin */
+.content .embedPastebin {
+    margin-bottom: 1.75em;
+}
+
 /* ==========================================================================
    8. Pagination - Tools to let you flick between pages
    ========================================================================== */
