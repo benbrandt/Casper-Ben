@@ -1232,9 +1232,7 @@ body:not(.post-template) .post-title {
 
 .film-schedule .this-month {
   background-color: #efefef;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
+  border-bottom: 3px solid #dedede;
 }
 
 .film-schedule .this-month .info {
@@ -1309,7 +1307,7 @@ body:not(.post-template) .post-title {
 }
 
 .film-discussion-title {
-    color: rgba(255,255,255,.8);
+    color: rgba(255,255,255,.95);
     margin: auto;
     margin-top: 6em;
 }
