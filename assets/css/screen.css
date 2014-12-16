@@ -1308,6 +1308,11 @@ body:not(.post-template) .post-title {
   border-bottom: 3px solid #dedede;
 }
 
+.film-discussion-title {
+    color: #fff;
+    margin: auto;
+}
+
 /* Pastebin */
 .content .embedPastebin {
     margin-bottom: 1.75em;
