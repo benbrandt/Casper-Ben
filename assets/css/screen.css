@@ -1230,12 +1230,12 @@ body:not(.post-template) .post-title {
   clear: both;
 }
 
-.film-schedule .this-month {
+.film-schedule .next-month {
   background-color: #efefef;
   border-bottom: 3px solid #dedede;
 }
 
-.film-schedule .this-month .info {
+.film-schedule .next-month .info {
   padding: 1em;
 }
 
