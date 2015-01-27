@@ -1221,6 +1221,14 @@ body:not(.post-template) .post-title {
 
 .coverart {
     width: 50%;
+    padding-right: .5em;
+    float: left;
+}
+
+.subscribe-podcast {
+    width: 50%;
+    padding-left: .5em;
+    float: left;
 }
 
 .film-schedule img {
