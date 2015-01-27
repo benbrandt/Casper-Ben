@@ -1263,6 +1263,9 @@ body:not(.post-template) .post-title {
 
 .film-schedule .this-month img {
     margin-right: 1em;
+    height: 100%;
+    width: auto;
+    max-width: 33%;
 }
 
 .film-schedule .this-month .info {
