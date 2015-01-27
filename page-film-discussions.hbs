@@ -10,7 +10,6 @@
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
         <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
-        <h1 class="post-title film-discussion-title">{{title}}</h1>
     </nav>
 </header>
 
@@ -18,6 +17,10 @@
 
     <article class="{{post_class}}">
     {{! Everything inside the #post tags pulls data from the post }}
+
+        <header class="post-header">
+            <h1 class="post-title">{{title}}</h1>
+        </header>
 
         <section class="post-content film-schedule">
             {{content}}
