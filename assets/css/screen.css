@@ -1229,6 +1229,7 @@ body:not(.post-template) .post-title {
     padding-top: .5em;
     padding-left: .5em;
     float: left;
+    width: 45%;
 }
 
 #mce-email, #mc-embedded-subscribe {
