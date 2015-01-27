@@ -1237,7 +1237,7 @@ body:not(.post-template) .post-title {
 }
 
 #mc_embed_signup input.email, #mc_embed_signup input.button {
-    width: 100%;
+    width: 100% !important;
 }
 
 .film-schedule img {
