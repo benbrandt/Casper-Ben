@@ -1262,7 +1262,7 @@ body:not(.post-template) .post-title {
 }
 
 .film-schedule .this-month img {
-
+    margin-right: 1em;
 }
 
 .film-schedule .this-month .info {
