@@ -1266,7 +1266,7 @@ body:not(.post-template) .post-title {
 }
 
 .film-schedule .this-month .info {
-  padding: 1em;
+  padding: .5em .5em 0 .5em;
 }
 
 .film-schedule .this-month a {
