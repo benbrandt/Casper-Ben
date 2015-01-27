@@ -1226,9 +1226,13 @@ body:not(.post-template) .post-title {
 }
 
 .subscribe-podcast {
-    width: 50%;
+    padding-top: .5em;
     padding-left: .5em;
     float: left;
+}
+
+#mce-email, #mc-embedded-subscribe {
+    width: 100%;
 }
 
 .film-schedule img {
