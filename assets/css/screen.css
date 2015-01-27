@@ -1270,7 +1270,7 @@ body:not(.post-template) .post-title {
 }
 
 .film-schedule .this-month .info p {
-  padding: .5em;
+  margin: .5em;
 }
 
 .film-schedule .this-month a {
