@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     {{! Document Settings }}
@@ -47,6 +47,12 @@
 
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+    <script type="text/javascript" src="{{asset "/js/audiojs/audio.min.js"}}"></script>
+    <script>
+        audiojs.events.ready(function () {
+            var as = audiojs.createAll();
+        });
+    </script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
 </body>
