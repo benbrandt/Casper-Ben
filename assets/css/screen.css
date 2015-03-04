@@ -1360,6 +1360,9 @@ body:not(.post-template) .post-title {
   max-width: 177px;
   height: 266px;
   transition: opacity 0.3s ease;
+  left: 0;
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 .film-schedule a:hover img {
