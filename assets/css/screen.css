@@ -1486,8 +1486,7 @@ body:not(.post-template) .post-title {
     min-width: 25px;
 }
 
-/* Prism */
-/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+css-extras+java+php+php-extras+python+scss+sql&plugins=line-numbers+show-language */
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+c+css-extras+php+php-extras+python+scss+sql&plugins=line-numbers+autolinker+show-language */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -1504,6 +1503,7 @@ pre[class*="language-"] {
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
+	word-wrap: normal;
 	line-height: 1.5;
 
 	-moz-tab-size: 4;
@@ -1533,6 +1533,7 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
+	white-space: normal;
 }
 
 .token.comment,
@@ -1648,21 +1649,37 @@ pre.line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
-pre[class*='language-'] {
+.token a {
+	color: inherit;
+}
+div.prism-show-language {
 	position: relative;
 }
-pre[class*='language-'][data-language]::before {
-	content: attr(data-language);
+
+div.prism-show-language > div.prism-show-language-label[data-language] {
 	color: black;
 	background-color: #CFCFCF;
 	display: inline-block;
 	position: absolute;
+	bottom: auto;
+	left: auto;
 	top: 0;
 	right: 0;
+	width: auto;
+	height: auto;
 	font-size: 0.9em;
 	border-radius: 0 0 0 5px;
 	padding: 0 0.5em;
 	text-shadow: none;
+	z-index: 1;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
 }
 
 /* Film Discussion Schedule */
